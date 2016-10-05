@@ -22,7 +22,7 @@ void TestSolution()
 	Solution sol;
 
 	listHead = sol.removeNthFromEnd(listHead, removeIndex);
-	std::cout << *listHead << std::endl;
+	std::cout << listHead << std::endl;
 
 	destroyList(listHead);
 }
