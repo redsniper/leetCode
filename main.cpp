@@ -1,7 +1,7 @@
 #include "Utility.h"
 #include <stdio.h>
 
-#include "LetterCombine.h"
+#include "RemoveNthNode.h"
 
 void InitIO()
 {
@@ -12,11 +12,19 @@ void InitIO()
 
 void TestSolution()
 {
-	string digits;
-	std::cin >> digits;
+	ListNode* listHead;
+
+	std::cin >> listHead;
+
+	int removeIndex;
+	std::cin >> removeIndex;
 
 	Solution sol;
-	std::cout << sol.letterCombinations(digits) << endl;
+
+	listHead = sol.removeNthFromEnd(listHead, removeIndex);
+	std::cout << *listHead << std::endl;
+
+	destroyList(listHead);
 }
 
 
