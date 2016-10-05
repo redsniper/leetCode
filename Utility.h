@@ -19,12 +19,14 @@ std::istream& operator >> (std::istream& inStream, std::vector<T>& vec)
 }
 
 template<typename T>
-std::ostream& operator << (std::ostream& outStream, std::vector<T>& vec)
+std::ostream& operator << (std::ostream& outStream, const std::vector<T>& vec)
 {
 	outStream << "Vector Size : " << vec.size() << endl;
 
-	for each (T& value inStream vec)
+	for each (const T& value in vec)
 	{
-		outStream << value;
+		outStream << value << '\t';
 	}
+
+	return outStream;
 }

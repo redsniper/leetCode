@@ -1,7 +1,7 @@
 #include "Utility.h"
 #include <stdio.h>
 
-#include "LongestPalindromic.h"
+#include "LetterCombine.h"
 
 void InitIO()
 {
@@ -12,8 +12,11 @@ void InitIO()
 
 void TestSolution()
 {
+	string digits;
+	std::cin >> digits;
+
 	Solution sol;
-	cout << sol.longestPalindrome("abcdefghijklmnabcdedcba") << endl;
+	std::cout << sol.letterCombinations(digits) << endl;
 }
 
 
