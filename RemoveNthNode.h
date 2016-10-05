@@ -42,9 +42,9 @@ std::istream& operator >> (std::istream& inStream, ListNode*& headRef)
 	return inStream;
 }
 
-std::ostream& operator << (std::ostream& ostream, const ListNode& headRef)
+std::ostream& operator << (std::ostream& ostream, const ListNode* headRef)
 {
-	const ListNode* cur = &headRef;
+	const ListNode* cur = headRef;
 
 	while (cur != NULL && cur->next != NULL)
 	{
