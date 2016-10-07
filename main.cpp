@@ -1,7 +1,7 @@
-#include "Utility.h"
 #include <stdio.h>
+#include "Utility.h"
 
-#include "RemoveNthNode.h"
+#include "MergeLists.h"
 
 void InitIO()
 {
@@ -12,19 +12,12 @@ void InitIO()
 
 void TestSolution()
 {
-	ListNode* listHead;
+	ListNode *a, *b;
 
-	std::cin >> listHead;
-
-	int removeIndex;
-	std::cin >> removeIndex;
-
+	std::cin >> a >> b;
 	Solution sol;
-
-	listHead = sol.removeNthFromEnd(listHead, removeIndex);
-	std::cout << listHead << std::endl;
-
-	destroyList(listHead);
+	ListNode* mergeResult = sol.mergeTwoLists(a, b);
+	std::cout << mergeResult << std::endl;
 }
 
 
