@@ -24,5 +24,6 @@
     <ClInclude Include="..\code\ValidParentheses.h" />
     <ClInclude Include="..\code\MergeLists.h" />
     <ClInclude Include="..\code\GenerateParentheses.h" />
+    <ClInclude Include="..\code\MergeKSortedList.h" />
   </ItemGroup>
 </Project>

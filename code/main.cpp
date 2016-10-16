@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "Utility.h"
 
-#include "MergeLists.h"
+#include "MergeKSortedList.h"
+
+using std::cin;
+using std::cout;
+using std::endl;
 
 void InitIO()
 {
@@ -12,12 +16,16 @@ void InitIO()
 
 void TestSolution()
 {
-	ListNode *a, *b;
+	vector<ListNode*> inputList;
 
-	std::cin >> a >> b;
+	std::cin >> inputList;
+
 	Solution sol;
-	ListNode* mergeResult = sol.mergeTwoLists(a, b);
-	std::cout << mergeResult << std::endl;
+
+	ListNode* res = sol.mergeKLists(inputList);
+	std::cout << res << std::endl;
+
+	destroyList(res);
 }
 
 
