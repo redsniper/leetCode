@@ -19,13 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\code\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\code\AddTwoNumbers.h" />
     <ClInclude Include="..\code\atoi.h" />
     <ClInclude Include="..\code\ContainerWithMostWater.h" />
-    <ClInclude Include="..\code\GenerateParentheses.h" />
     <ClInclude Include="..\code\LetterCombine.h" />
     <ClInclude Include="..\code\LongestCommonPrefix.h" />
     <ClInclude Include="..\code\LongestPalindromic.h" />
@@ -42,7 +37,9 @@
     <ClInclude Include="..\code\TwoSum.h" />
     <ClInclude Include="..\code\Utility.h" />
     <ClInclude Include="..\code\ValidParentheses.h" />
-    <ClInclude Include="..\code\zigzag.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{828F615A-CFBE-415C-B6D0-4E8366493793}</ProjectGuid>
