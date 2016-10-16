@@ -1,1 +1,6 @@
 bin
+Generated
+/LeetCode.VC.db
+/LeetCode/LeetCode.vcxproj.user
+/.vs/LeetCode/v14
+/LeetCode.VC.VC.opendb
