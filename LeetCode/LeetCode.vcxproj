@@ -32,6 +32,8 @@
     <ClInclude Include="..\code\regualrStrMatch.h" />
     <ClInclude Include="..\code\RemoveNthNode.h" />
     <ClInclude Include="..\code\ReverseInt.h" />
+    <ClInclude Include="..\code\ReverseKNodes.h" />
+    <ClInclude Include="..\code\SwapNodesInPair.h" />
     <ClInclude Include="..\code\ThreeSum.h" />
     <ClInclude Include="..\code\ThreeSumClosest.h" />
     <ClInclude Include="..\code\TwoSum.h" />

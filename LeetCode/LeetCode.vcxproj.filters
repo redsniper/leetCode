@@ -19,6 +19,8 @@
     <ClInclude Include="..\code\TwoSum.h" />
     <ClInclude Include="..\code\Utility.h" />
     <ClInclude Include="..\code\ValidParentheses.h" />
+    <ClInclude Include="..\code\SwapNodesInPair.h" />
+    <ClInclude Include="..\code\ReverseKNodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp" />

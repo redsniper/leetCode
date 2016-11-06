@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "Utility.h"
 
-#include "MergeKSortedList.h"
+#include "ReverseKNodes.h"
 
 using std::cin;
 using std::cout;
@@ -16,16 +16,17 @@ void InitIO()
 
 void TestSolution()
 {
-	vector<ListNode*> inputList;
+	ListNode* listHead = NULL;
+	cin >> listHead;
 
-	std::cin >> inputList;
+	int k;
+	cin >> k;
 
 	Solution sol;
+	listHead = sol.reverseKGroup(listHead, k);
+	cout << listHead;
 
-	ListNode* res = sol.mergeKLists(inputList);
-	std::cout << res << std::endl;
-
-	destroyList(res);
+	destroyList(listHead);
 }
 
 
