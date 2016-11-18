@@ -21,6 +21,12 @@
     <ClInclude Include="..\code\ValidParentheses.h" />
     <ClInclude Include="..\code\SwapNodesInPair.h" />
     <ClInclude Include="..\code\ReverseKNodes.h" />
+    <ClInclude Include="..\code\DivideInt.h" />
+    <ClInclude Include="..\code\RemoveElements.h" />
+    <ClInclude Include="..\code\SubstrConcatetion.h" />
+    <ClInclude Include="..\code\NextPermutation.h" />
+    <ClInclude Include="..\code\LongestValidPar.h" />
+    <ClInclude Include="..\code\SearchRotArr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp" />

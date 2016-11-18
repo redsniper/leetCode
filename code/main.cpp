@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "Utility.h"
 
-#include "ReverseKNodes.h"
+#include "SearchRotArr.h"
 
 using std::cin;
 using std::cout;
@@ -16,17 +16,13 @@ void InitIO()
 
 void TestSolution()
 {
-	ListNode* listHead = NULL;
-	cin >> listHead;
-
-	int k;
-	cin >> k;
+	vector<int> a;
+	cin >> a;
+	int target;
+	cin >> target;
 
 	Solution sol;
-	listHead = sol.reverseKGroup(listHead, k);
-	cout << listHead;
-
-	destroyList(listHead);
+	cout << sol.search(a, target) << endl;
 }
 
 

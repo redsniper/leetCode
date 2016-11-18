@@ -21,18 +21,24 @@
   <ItemGroup>
     <ClInclude Include="..\code\atoi.h" />
     <ClInclude Include="..\code\ContainerWithMostWater.h" />
+    <ClInclude Include="..\code\DivideInt.h" />
     <ClInclude Include="..\code\LetterCombine.h" />
     <ClInclude Include="..\code\LongestCommonPrefix.h" />
     <ClInclude Include="..\code\LongestPalindromic.h" />
+    <ClInclude Include="..\code\LongestValidPar.h" />
     <ClInclude Include="..\code\LongSubStr.h" />
     <ClInclude Include="..\code\MedianOfArrays.h" />
     <ClInclude Include="..\code\MergeKSortedList.h" />
     <ClInclude Include="..\code\MergeLists.h" />
+    <ClInclude Include="..\code\NextPermutation.h" />
     <ClInclude Include="..\code\PalindromeNumber.h" />
     <ClInclude Include="..\code\regualrStrMatch.h" />
+    <ClInclude Include="..\code\RemoveElements.h" />
     <ClInclude Include="..\code\RemoveNthNode.h" />
     <ClInclude Include="..\code\ReverseInt.h" />
     <ClInclude Include="..\code\ReverseKNodes.h" />
+    <ClInclude Include="..\code\SearchRotArr.h" />
+    <ClInclude Include="..\code\SubstrConcatetion.h" />
     <ClInclude Include="..\code\SwapNodesInPair.h" />
     <ClInclude Include="..\code\ThreeSum.h" />
     <ClInclude Include="..\code\ThreeSumClosest.h" />
